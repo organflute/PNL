@@ -11,7 +11,7 @@ To do:
 
 1.1.2 Figure out how to not line break logfiles
 
-1.1.3 ~~Can we do it with less imported libs?~~
+1.1.3 ~~Can we do it with less imported libs?~~ Done
 
 1.1.4 Implement migration to another PID
 
@@ -25,7 +25,7 @@ To do:
 
 
 
-3.1.1 ~~Research TCP, can i use a dns?~~
+3.1.1 ~~Research TCP, can i use a dns?~~ Yes
 
 
 
